@@ -1,3 +1,10 @@
+import os
+import datetime
+from PIL import Image
+from pillow_heif import register_heif_opener
+from pathlib import Path
+from tqdm import tqdm
+
 def batch_convert_images(active_directory_path, source_folder_name):
     current_date_time = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
     print(f'\nConvert HEIC to PNG {current_date_time}')
