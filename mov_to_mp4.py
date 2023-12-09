@@ -15,4 +15,4 @@ current_date_time = datetime.datetime.now()
 current_date_time = current_date_time.strftime('%Y.%m.%d_%H.%M.%S')
 
 # Example usage
-convert_mov_to_mp4("/Users/jackson/Desktop/Avery and Jackson Videos/2023.11.15 Session 1/Screen Recording 2023-11-15 at 10.37.55 PM.mov", f"{current_date_time}_output_video.mp4")
+convert_mov_to_mp4("file_path.mov", f"{current_date_time}_exported_video.mp4")
